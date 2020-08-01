@@ -1,0 +1,103 @@
+/*----Screen from 1024 to 1200----*/
+@media only screen and (max-width: 1200px) {
+    body {font-size: 18px}
+    .text-box {
+        width: 100%;
+       padding: 0 2%;
+    }
+    .row {
+        padding: 0 2%;
+    }
+    .steps p {
+        width: 65%;
+    }
+    .steps div {
+        width: 45px;
+        height: 45px;
+        font-size: 120%;
+        margin: 3%;
+    }
+    .container {
+        margin-left: 20%;
+    }
+    .app-screen {width: 22%}
+    .plan-box {
+        width: 85%;
+    }
+    h3 {font-size: 100%}
+}
+/*-------Screen from 768 to 1023--------*/
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 16px;
+    }
+    section {
+        padding: 60px;
+    }
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .plan-box {
+        width: 100%;
+        margin-left: 1%;
+    }
+    h3 {font-size: 100%}
+    .app-screen {width: 24%}
+    .steps div {
+        width: 40px;
+        height: 40px;
+        font-size: 100%;
+        margin: 1%;
+    }
+    .steps p {
+        font-size: 90%;
+        width: 85%;
+    }
+    .download-btn {height: 30px}
+    .price-month {
+        font-size: 200%;
+    }
+    .fa-check {margin: 0 5px}
+}
+
+/*------Screen from 481 to 767--------*/
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 15px;
+    }
+    section {
+        padding: 30px 0;
+    }
+    .row, .text-box {
+        padding: 0 4%;
+    }
+    .content-box {flex-direction: column}
+    .main-nav {display: none}
+    h1 {font-size: 180%}
+    h2 {font-size: 150%}
+    .long-copy {
+        width: 100%;
+        margin: 0;
+    }
+    .app-screen {display: none}
+    .main-steps, .container {
+        margin: 0;
+    }
+    .cities-container {
+        flex-direction: column;
+    }
+    .box-1-of-3 {
+        width: 100%;
+    }
+    cite {
+        margin: 5px 2px 0 0;
+    }
+    .plan-box {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    section {padding: 20px 0}
+}

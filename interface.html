@@ -1,11 +1,15 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="design.css">
+    <link rel="stylesheet" type="text/css" href="responsive.css">
     <link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic", rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/e01cfc4369.js" crossorigin="anonymous"></script>
     <title>Omnifood</title>
 </head>
 <body>
+<!--navigation bar và main heading-->
     <header>
         <nav>
             <div class="row">
@@ -24,6 +28,8 @@
             <a class="btn btn-ghost" href="#">Show me more</a>
         </div>
     </header>
+<!----------------------------------------->
+
     <section class="features-section">
         <div class="row">
             <h2>Get food fast &mdash; not fast food.</h2>
@@ -32,35 +38,29 @@
                 No time for cooking. So let us take care of that, we're really good at it, we promise!
             </p>
         </div>
-        <div class="row">
-            <div class="col span-1-of-4 box">
+        <div class="content-box row">
+            <div class="box">
                 <h3>Up to 365 days/year</h3>
                 <p>
                     Never cook again! We really mean that. Our subscription plans include up to 365 days/year coverage.
                     You can also choose to order more flexibly if that's your style.
                 </p>
             </div>
-        </div>
-        <div class="row">
-            <div class="col span-1-of-4 box">
+            <div class="box">
                 <h3>Ready in 20 minutes</h3>
                 <p>
                     You're only twenty minutes away from your delicious and super healthy meals delivered right to your home.
                     We work with the best chefs in each town to ensure that you're 100% happy.
                 </p>
             </div>
-        </div>
-        <div class="row">
-            <div class="col span-1-of-4 box">
+            <div class="box">
                 <h3>100% organic</h3>
                 <p>
                     All our vegetables are fresh, organic and local. Animals are raised without added hormones or antibiotics.
                     Good for your health, the environment, and it also tastes better!
                 </p>
             </div>
-        </div>
-        <div class="row">
-            <div class="col span-1-of-4 box">
+            <div class="box">
                 <h3>Order anything</h3>
                 <p>
                     We don't limit your creativity, which means you can order whatever you feel like.
@@ -69,6 +69,8 @@
             </div>
         </div>
     </section>
+
+<!--ảnh 1 số đồ ăn và làm hiệu ứng hover-->
     <section class="meals-section">
         <ul class="meals-showcase">
             <li><figure class="meal-photo"><img src="public/images/foods/1.jpg"></figure></li>
@@ -82,6 +84,206 @@
             <li><figure class="meal-photo"><img src="public/images/foods/7.jpg"></figure></li>
             <li><figure class="meal-photo"><img src="public/images/foods/8.jpg"></figure></li>
         </ul>
+    </section>
+    <section class="steps-section">
+        <div class="row">
+            <h2>How it works &mdash;Simple as 1, 2, 3</h2>
+        </div>
+        <div class="content-box row container">
+            <img class="app-screen" src="public/images/logo/app-iPhone.png">
+            <div class="main-steps">
+                <div class="steps">
+                    <div>1</div>
+                    <p>Choose the subscription plan that best fits your needs and sign up today.</p>
+                </div>
+                <div class="steps">
+                    <div>2</div>
+                    <p>Order your delicious meal using our mobile app or website. Or you can even call us!</p>
+                </div>
+                <div class="steps">
+                    <div>3</div>
+                    <p>Enjoy your meal after less than 20 minutes. See you the next time!</p>
+                </div>
+                <a href="#"><img class="download-btn" src="public/images/logo/download-app-android.png"></a>
+                <a href="#"><img class="download-btn" src="public/images/logo/download-app.svg"></a>
+            </div>
+        </div>
+    </section>
+    <section class="cities-section row">
+        <h2>We're currently in these cities</h2>
+        <div class="cities-container">
+            <div class="cities-showcase">
+                <img src="public/images/cities/lisbon-3.jpg">
+                <h3>Lisbon</h3>
+                <div class="city-features">
+                    <i class="fas fa-user-alt">1600+ happy eaters</i><br>
+                    <i class="fas fa-star">60+ top chefs</i><br>
+                    <i class="fab fa-twitter">@omnifood_lx</i>
+                </div>
+            </div>
+            <div class="cities-showcase">
+                <img src="public/images/cities/san-francisco.jpg">
+                <h3>San Francisco</h3>
+                <div class="city-features">
+                    <i class="fas fa-user-alt">3700+ happy eaters</i><br>
+                    <i class="fas fa-star">160+ top chefs</i><br>
+                    <i class="fab fa-twitter">@omnifood_sf</i>
+                </div>
+            </div>
+            <div class="cities-showcase">
+                <img src="public/images/cities/berlin.jpg">
+                <h3>Berlin</h3>
+                <div class="city-features">
+                    <i class="fas fa-user-alt">2300+ happy eaters</i><br>
+                    <i class="fas fa-star">110+ top chefs</i><br>
+                    <i class="fab fa-twitter">@omnifood_berlin</i>
+                </div>
+            </div>
+            <div class="cities-showcase">
+                <img src="public/images/cities/london.jpg">
+                <h3>London</h3>
+                <div class="city-features">
+                    <i class="fas fa-user-alt">1200+ happy eaters</i><br>
+                    <i class="fas fa-star">50+ top chefs</i><br>
+                    <i class="fab fa-twitter">@omnifood_london</i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="customers-section">
+        <div class="row">
+            <h2>Our customers can't live without us</h2>
+        </div>
+        <div class="row content-box">
+            <div class="box-1-of-3">
+                <blockquote>Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver.
+                    Now that I got used to it, I couldn't live without my daily meals!</blockquote>
+                <cite><img src="public/images/customers/customer-1.jpg">Alberto Duncan</cite>
+            </div>
+            <div class="box-1-of-3">
+                <blockquote>Inexpensive, healthy and great-tasting meals, delivered right to my home.
+                    We have lots of food delivery here in Lisbon, but no one comes even close to Omifood. Me and my family are so in love!</blockquote>
+                <cite><img src="public/images/customers/customer-2.jpg">Joana Silva</cite>
+            </div>
+            <div class="box-1-of-3">
+                <blockquote>I was looking for a quick and easy food delivery service in San Franciso.
+                    I tried a lot of them and ended up with Omnifood. Best food delivery service in the Bay Area. Keep up the great work!</blockquote>
+                <cite><img src="public/images/customers/customer-3.jpg">Milton Chapman</cite>
+            </div>
+        </div>
+    </section>
+    <section class="pricing-section">
+        <div class="row">
+            <h2>Start eating healthy today</h2>
+        </div>
+        <div class="row content-box">
+            <div class="box-1-of-3 plan-box">
+                <div>
+                    <h3>Premium</h3>
+                    <p class="price-month">399$ <span>/month</span></p>
+                    <p class="price-meals">That's only 13.30$ per meal</p>
+                </div>
+                <div>
+                    <ul>
+                        <li><i class="fas fa-check"></i>1 meal every day</li>
+                        <li><i class="fas fa-check"></i>Order 24/7</li>
+                        <li><i class="fas fa-check"></i>Access to newest creations</li>
+                        <li><i class="fas fa-check"></i>Free delivery</li>
+                    </ul>
+                </div>
+                <div>
+                    <a class="btn btn-full" href="#">Sign up Now</a>
+                </div>
+            </div>
+            <div class="box-1-of-3 plan-box">
+                <div>
+                    <h3>Pro</h3>
+                    <p class="price-month">149$ <span>/month</span></p>
+                    <p class="price-meals">That's only 14.90$ per meal</p>
+                </div>
+                <div>
+                    <ul>
+                        <li><i class="fas fa-check"></i>1 meal 10 days/month</li>
+                        <li><i class="fas fa-check"></i>Order 24/7</li>
+                        <li><i class="fas fa-check"></i>Access to newest creations</li>
+                        <li><i class="fas fa-check"></i>Free delivery</li>
+                    </ul>
+                </div>
+                <div>
+                    <a class="btn btn-ghost" href="#">Sign up Now</a>
+                </div>
+            </div>
+            <div class="box-1-of-3 plan-box">
+                <div>
+                    <h3>Stater</h3>
+                    <p class="price-month">19$ <span>/meal</span></p>
+                    <p class="price-meals">&nbsp;</p>
+                </div>
+                <div>
+                    <ul>
+                        <li><i class="fas fa-check"></i>1 meal</li>
+                        <li><i class="fas fa-check"></i>Order from 8 am to 12 pm</li>
+                        <li><i class="fas fa-check"></i>Free delivery</li>
+                        <li>&nbsp;</li>
+                    </ul>
+                </div>
+                <div>
+                    <a class="btn btn-ghost" href="#">Sign up Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-section">
+        <div class="row">
+            <h2>We're happy to hear from you</h2>
+        </div>
+        <div class="row">
+            <form method="post" action="#">
+                <div class="contact-form">
+                   <div class="input-box">
+                       <input type="text" name="" required="">
+                       <span>Full name</span>
+                   </div>
+                    <div class="input-box">
+                        <input type="text" name="" required="">
+                        <span>Email</span>
+                    </div>
+                    <div class="input-box">
+                        <textarea required=""></textarea>
+                        <span>Type your message...</span>
+                    </div>
+                    <div class="input-box">
+                        <input type="submit" name="" value="Send">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="footer-section">
+        <footer>
+            <div class="content-box">
+                <div class="row">
+                    <ul class="footer-nav">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">IOS App</a></li>
+                        <li><a href="#">Android App</a></li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <ul class="social-links">
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row copy-right">
+                <p>Copyright &copy; 2020 by Thanhle. All rights reserved</p>
+            </div>
+        </footer>
     </section>
 </body>
 </html>
